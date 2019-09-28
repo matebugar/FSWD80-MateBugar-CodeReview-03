@@ -1,0 +1,283 @@
+body {
+  margin: 0 auto;
+  width: 1000px;}
+
+#header {
+  background-color: #FFF3F3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 14px 0 20px 14px;
+  background-color: #FFF3F3;
+  align-items: center; 
+}
+
+#headerlogo1 {
+  width: 220px;
+  height: 50px;
+  margin-left: 5px;
+  }
+
+#headerlogo2 {
+  width: 520px;
+  height: 80px;
+  margin-right: 25px; }
+
+#navbar ul {
+  font-family: Arial;
+  background-color: #9c1e16;
+  font-size: 24px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px 10px 10px 20px;
+   }
+
+#navbar ul li {
+  display: inline; }
+
+#navbar ul a {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  margin-left: 5px;
+  }
+
+#backgroundImage {
+  height: 650px; 
+  margin-top: -40px;
+  background-image: url(../img/traffic-332857_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#backgroundImage p{
+  color: white;
+  font-size: 40px;
+  padding-top: 35px;
+  margin-left: 40px;
+}
+
+#imgTitle {
+  font-family: 'Chivo', sans-serif;
+  text-shadow: 2px 1px lightgrey;
+  font-weight: 600;
+}
+
+.box {
+  position: absolute;
+  right: 22%;
+  top: 38%;
+  margin: 0 auto;
+  width: 800px;
+  height: 590px;
+  background-color: rgba(255,255,255,.7);
+  border: 2px solid #a9a9a9;
+ }
+
+#boxheader {
+  text-align: center;
+  font-size: 46px;
+  margin-top: 14px;
+  margin-bottom: 8px;
+  font-family: 'Chivo', sans-serif;
+  color: #474747; 
+  text-shadow: 2px 1px black;
+}
+
+.inputfield {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+}
+.inputboxes {
+ margin-bottom: 40px;
+}
+
+.inputboxes p {
+  font-size: 22px;
+  padding-left: 5px;
+  margin-bottom: 0;
+  font-family: 'Slabo 27px', serif;
+}
+
+.inputboxes div {
+  height: 90px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.inputboxes div input {
+  box-sizing: border-box;
+  width: 240px;
+  height: 45px;
+  font-size: 18px;
+  border: 2px solid #a9a9a9;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+}
+
+#selectBox {
+  width: 240px;
+  height: 45px;
+  border: 2px solid #a9a9a9;
+  font-size: 24px; }
+
+#buttonDiv {
+  text-align: center;
+  margin-top: 0;
+}
+#button {
+  font-size: 35px;
+  text-align: center;
+  width: 300px;
+  padding: 4px;
+  text-align: center;
+  color: white;
+  background-color: #4e9c2f;
+  border-radius: 12px;
+}
+
+#result {
+  font-size: 36px;
+  color: #4e9c2f ;
+}
+
+.description {
+  background-color: #c2c2c2;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #474747; 
+  font-family: 'Chivo', sans-serif;
+}
+
+.description p strong {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.contentBoxDiv {
+  display: flex;
+  justify-content: space-around; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contentBox{
+  height: 360px;
+  width: 360px;
+  border-top: 3px solid #414245;
+  border-bottom: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  box-shadow: 2px 2px 1px lightgrey;
+ }
+
+.boxTitle {
+  color: #27478f;
+  font-size: 24px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.boxDesc {
+  color: #57595c;
+  text-align: left;
+  padding-left: 30px;
+  margin-top: -20px;
+}
+
+.contentBox ul {
+  list-style: none; }
+
+.contentBox ul li {
+  color: #57595c; 
+  padding-top: 10px;
+  padding-bottom: 14px;
+}
+
+.contentBox ul li a {
+  color: #78a1de;
+}
+
+.benefits {
+  text-align: left;
+  padding-left: 30px;
+  font-weight: bold;
+  color: #414245;
+}
+
+.benefitsDesc {
+text-align: left;
+padding-left: 30px;
+color: darkgray;
+}
+
+footer {
+  background-color: black; }
+
+footer p {
+  padding-bottom: 5px;
+  color: white;
+  text-align: center;
+  font-size: 20px; }
+
+#footerlogo {
+  text-align: right;
+  padding-right: 25px; }
+
+.navfooter {
+  list-style-type: none;
+  background-color: black;
+  font-size: 15px;
+  margin: 0;
+  padding: 10px 10px; }
+
+.navfooter li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px; }
+
+.navfooter li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none; }
+
+/* team.html page style */
+
+#teamHeader {
+  text-align: center;
+  font-size: 34px;
+  font-family: 'Notable', sans-serif;
+  font-weight: 900;
+}
+
+.tableStaff {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#staff {
+  display: flex;
+  justify-content: space-between;
+}
+
+#staff img {
+  width: 200px;
+  height: 280px;
+  padding-left: 40px;
+}
+
+#staff p {
+  padding-left: 70px;
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+}
+
+#staff p:first-child {
+  font-weight: bold;
+  font-size: 26px;
+}
